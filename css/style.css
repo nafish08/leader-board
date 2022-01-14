@@ -1,0 +1,7 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Roboto:wght@100&family=Yeseva+One&display=swap');
+
+/* Utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+}
