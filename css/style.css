@@ -63,6 +63,9 @@ body{
     text-decoration: none;
     color: white;
 }
+.nav-menu img{
+    width: 45px;
+}
 
 /* Top Player */
 .top-player{
@@ -164,4 +167,38 @@ hr{
     color: #FF4A60;
     Width: 94.83px;
     Height: 29.38px;
+}
+
+@media only screen and (max-width: 600px){
+    .top-bar{
+        flex-direction: column;
+        height: auto;
+    }
+    .nav-logo{
+        margin: auto;
+    }
+    .nav-menu{
+        margin: auto;
+    }
+    .nav-menu ul{
+        justify-content: space-around;
+    }
+
+
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    hr{
+        width: 100%;
+    }
+
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+
+    .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
